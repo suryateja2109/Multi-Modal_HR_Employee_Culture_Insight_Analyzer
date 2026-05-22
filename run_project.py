@@ -101,10 +101,12 @@ print("Final Culture Score:", culture_score)
 # -------------------------------
 
 if culture_score >= 0.7:
-culture_status = "Excellent Work Culture"
+    culture_status = "Excellent Work Culture"
+
 elif culture_score >= 0.5:
-culture_status = "Moderate Work Culture"
+    culture_status = "Moderate Work Culture"
+
 else:
-culture_status = "Poor Work Culture"
+    culture_status = "Poor Work Culture"
 
 print("Culture Status:", culture_status)
