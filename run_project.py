@@ -22,7 +22,7 @@ print("Sentiment Model Loaded")
 
 # -------------------------------
 
-emotion_model = load_model("emotion_model.keras")
+emotion_model = load_model("emotion_model.h5")
 
 print("Emotion Model Loaded")
 
